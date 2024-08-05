@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv "X-UA-Compatible" content "IE edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE ENCRIPTADOR</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <img class="LogoAlura" src="./Imagens/Logo Alura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <SEction>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="Informacao">
+                <h6>Apenas letras minusculas e sem acentos</h6>
+            </div>
+     
+            <div class="botoes">
+               <button class="btn-encriptar" onclick="btn-encriptar()">Criptografar</button>
+               <button class="btn-desencriptar" onclick="btn-desencriptar()">Descriptografar</button>                       
+            </div>
+         </SEction>
+     
+         <SEction>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-Copiar">Copiar</button>    
+         </SEction>
+    </main>
+    <script src="Script.js"></script>
+</body>
+</html>
